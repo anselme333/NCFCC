@@ -1,0 +1,46 @@
+# topo-8-nodes.txt
+router
+
+# node  comment     yPos    xPos
+Src1   NA        1       1
+Src2   NA        1       3
+Src3   NA        1       5
+Src4   NA        1       7
+Src5   NA        1       9
+Src6   NA        1       13
+Src7   NA        1       15
+Src8   NA        1       17
+Src9   NA        1       19
+Src10  NA        1       21
+
+A_R1   NA        3       5
+A_R2   NA        3       15
+R1  NA        8     7
+R2   NA        8       11
+CP1   NA        10       3
+CP2   NA        10       13
+CP3   NA        10       21
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+Src1        A_R1        10Mbps      1       10ms    100
+Src2        A_R1        10Mbps      1       10ms    100
+Src3        A_R1        10Mbps      1       10ms    100
+Src4        A_R1        10Mbps      1       10ms    100
+Src5        A_R1        10Mbps      1       10ms    100
+Src6        A_R2        10Mbps      1       10ms    100
+Src7        A_R2        10Mbps      1       10ms    100
+Src8        A_R2        10Mbps      1       10ms    100
+Src9        A_R2        10Mbps      1       10ms    100
+Src10       A_R2        10Mbps      1       10ms   100
+A_R1        R1          10Mbps       1       10ms    100
+A_R2        R1          10Mbps       1       10ms    100
+A_R2        R2          10Mbps       1       10ms    100
+A_R1        A_R2        10Mbps       1       10ms    100
+R1          CP1         50Mbps      1       10ms    100
+R1          CP2         50Mbps       1       10ms    100
+R1          CP3         50Mbps      1       10ms    100
+R2          CP1         50Mbps      1       10ms    100
+R2          CP2         50Mbps       1       10ms    100
+R2          CP3         50Mbps      1       10ms    100

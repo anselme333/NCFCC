@@ -1,0 +1,14 @@
+# topo-6-nodes.txt
+
+router
+
+# node  comment  yPos    xPos
+Src1    NA        3       3
+Rtr1    NA        3       5
+Dst1    NA        3       7
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+Src1        Rtr1        10Mbps      1       10ms    100
+Rtr1        Dst1        20Mbps      1       10ms    100

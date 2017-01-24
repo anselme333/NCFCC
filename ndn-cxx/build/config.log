@@ -1,0 +1,441 @@
+# project ndn-cxx (0.3.4) configured on Sat Nov 21 14:07:18 2015 by
+# waf 1.8.9 (abi 98, python 20706f0 on linux2)
+# using ./waf configure
+#
+----------------------------------------
+Setting top to
+/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx
+----------------------------------------
+Setting out to
+/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build
+----------------------------------------
+Building static library
+no
+----------------------------------------
+Building shared library
+yes
+----------------------------------------
+Checking for 'g++' (C++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='CXX' -> ['/usr/bin/g++']
+find program=['ar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/g++
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_c0ce72bdc7a87436deb82964d7ff0e00/test.cpp[0m
+
+['/usr/bin/g++', '-Werror', '-std=c++11', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_c0ce72bdc7a87436deb82964d7ff0e00/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c0ce72bdc7a87436deb82964d7ff0e00/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_c0ce72bdc7a87436deb82964d7ff0e00/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-std=c++11
+----------------------------------------
+Checking supported CXXFLAGS
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_fee2e6d8cd5a9cd4831cc274266c8aff/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-pedantic', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_fee2e6d8cd5a9cd4831cc274266c8aff/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_fee2e6d8cd5a9cd4831cc274266c8aff/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_fee2e6d8cd5a9cd4831cc274266c8aff/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_9970ec421fe0867800cccd549c9b0145/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-Wall', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9970ec421fe0867800cccd549c9b0145/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_9970ec421fe0867800cccd549c9b0145/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9970ec421fe0867800cccd549c9b0145/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_9f57e70af316da6e5ef15101939aca4e/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-O2', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9f57e70af316da6e5ef15101939aca4e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_9f57e70af316da6e5ef15101939aca4e/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9f57e70af316da6e5ef15101939aca4e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_a56838050072f9d425ff1a5bf4c85c02/test.cpp[0m
+
+['/usr/bin/g++', '-std=c++11', '-Werror', '-g', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_a56838050072f9d425ff1a5bf4c85c02/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_a56838050072f9d425ff1a5bf4c85c02/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_a56838050072f9d425ff1a5bf4c85c02/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+-pedantic -Wall -O2 -g
+----------------------------------------
+Checking for program 'doxygen'
+/usr/bin/doxygen
+find program=['doxygen'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='DOXYGEN' -> ['/usr/bin/doxygen']
+----------------------------------------
+Checking for program 'tar'
+/bin/tar
+find program=['tar'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='TAR' -> ['/bin/tar']
+----------------------------------------
+Checking for program 'sphinx-build'
+/usr/bin/sphinx-build
+find program=['sphinx-build'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='SPHINX_BUILD' -> ['/usr/bin/sphinx-build']
+------------------------------------------
+Checking for std::is_default_constructible
+==>
+#include <type_traits>
+static_assert(std::is_default_constructible<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_5d897e17d201f3daa16f0e4b06e3875c/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_5d897e17d201f3daa16f0e4b06e3875c/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for std::is_nothrow_move_constructible
+==>
+#include <type_traits>
+static_assert(std::is_nothrow_move_constructible<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_f8969dc3ed291023b8cf8e9ccde2530b/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_f8969dc3ed291023b8cf8e9ccde2530b/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for std::is_nothrow_move_assignable
+==>
+#include <type_traits>
+static_assert(std::is_nothrow_move_assignable<int>::value, "");
+<==
+[1/1] Compiling [32mbuild/.conf_check_9edf4644146442eea77ed34aad92e3fe/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9edf4644146442eea77ed34aad92e3fe/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for friend typename-specifier
+==>
+
+class A;
+
+template<typename T>
+class B
+{
+  friend T;
+};
+
+B<A> g_b;
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_f26f4c4ec3e8a45701c3c3c7c56d922d/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_f26f4c4ec3e8a45701c3c3c7c56d922d/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------
+Checking for override and final specifiers
+==>
+
+class Base
+{
+  virtual void
+  f(int a);
+};
+
+class Derived : public Base
+{
+  virtual void
+  f(int a) override;
+};
+
+class Final : public Derived
+{
+  virtual void
+  f(int a) final;
+};
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_28d37fba79709b4a4aed58ef63d40a84/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_28d37fba79709b4a4aed58ef63d40a84/testbuild/test.cpp.1.o']
+yes
+-----------------------------------------------------
+Checking for std::vector::insert with const_iterators
+==>
+
+#include <vector>
+int
+main()
+{
+  std::vector<int> v;
+  std::vector<int>::const_iterator it = v.cbegin();
+
+  v.insert(it, 2);
+  it = v.cend() - 1;
+  v.erase(it);
+  return 0;
+}
+
+<==
+[1/1] Compiling [32mbuild/.conf_check_3f05cd66cffcbb57391528f62c7f75c0/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_3f05cd66cffcbb57391528f62c7f75c0/testbuild/test.cpp.1.o']
+err: ../test.cpp: In function ‘int main()’:
+../test.cpp:9:17: error: no matching function for call to ‘std::vector<int>::insert(std::vector<int>::const_iterator&, int)’
+   v.insert(it, 2);
+                 ^
+../test.cpp:9:17: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:69:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/vector.tcc:107:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::value_type = int]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:107:5: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/stl_vector.h:988:7: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(iterator __position, value_type&& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:988:7: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/stl_vector.h:1005:7: note: void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+       insert(iterator __position, initializer_list<value_type> __l)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:1005:7: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/stl_vector.h:1023:7: note: void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(iterator __position, size_type __n, const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:1023:7: note:   candidate expects 3 arguments, 2 provided
+/usr/include/c++/4.8/bits/stl_vector.h:1044:9: note: template<class _InputIterator, class> void std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::iterator, _InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = int; _Alloc = std::allocator<int>]
+         insert(iterator __position, _InputIterator __first,
+         ^
+/usr/include/c++/4.8/bits/stl_vector.h:1044:9: note:   template argument deduction/substitution failed:
+../test.cpp:9:17: note:   cannot convert ‘it’ (type ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’) to type ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+   v.insert(it, 2);
+                 ^
+../test.cpp:11:13: error: no matching function for call to ‘std::vector<int>::erase(std::vector<int>::const_iterator&)’
+   v.erase(it);
+             ^
+../test.cpp:11:13: note: candidates are:
+In file included from /usr/include/c++/4.8/vector:69:0,
+                 from ../test.cpp:2:
+/usr/include/c++/4.8/bits/vector.tcc:134:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::erase(std::vector<_Tp, _Alloc>::iterator) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:134:5: note:   no known conversion for argument 1 from ‘std::vector<int>::const_iterator {aka __gnu_cxx::__normal_iterator<const int*, std::vector<int> >}’ to ‘std::vector<int>::iterator {aka __gnu_cxx::__normal_iterator<int*, std::vector<int> >}’
+/usr/include/c++/4.8/bits/vector.tcc:146:5: note: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::erase(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::iterator) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*]
+     vector<_Tp, _Alloc>::
+     ^
+/usr/include/c++/4.8/bits/vector.tcc:146:5: note:   candidate expects 2 arguments, 1 provided
+
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: Test does not build: Traceback (most recent call last):
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Configure.py", line 343, in run_build
+    bld.compile()
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 140453150993296: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_3f05cd66cffcbb57391528f62c7f75c0/testbuild/test.cpp.1.o']
+
+no
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: The configuration failed
+-----------------------------------------------------
+Checking for program 'sh'
+/bin/sh
+find program=['sh'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='SH' -> ['/bin/sh']
+-----------------------------------------------------
+Checking for library pthread
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_7aec3a284128927ed6a20453a4a60f08/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_7aec3a284128927ed6a20453a4a60f08/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_7aec3a284128927ed6a20453a4a60f08/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_7aec3a284128927ed6a20453a4a60f08/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lpthread']
+yes
+-----------------------------------------------------
+Checking for library rt
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_0b77aa713012f041917583cf42963a8e/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_0b77aa713012f041917583cf42963a8e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0b77aa713012f041917583cf42963a8e/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_0b77aa713012f041917583cf42963a8e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+yes
+-----------------------------------------------------
+Checking for function getpass
+==>
+
+#include <unistd.h>
+int
+main(int, char**)
+{
+  char* pass = getpass("test prompt");
+  (void)(pass);
+  return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_4db36419603f92d3616d0ab51852c51d/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_4db36419603f92d3616d0ab51852c51d/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_4db36419603f92d3616d0ab51852c51d/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_4db36419603f92d3616d0ab51852c51d/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-----------------------------------------------------
+Checking for rtnetlink
+==>
+#include <netinet/in.h>
+#include <linux/netlink.h>
+#include <linux/rtnetlink.h>
+#include <net/if.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_651913c08610332d932eb37b06d196c5/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_651913c08610332d932eb37b06d196c5/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_651913c08610332d932eb37b06d196c5/testbuild/testprog[0m
+
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_651913c08610332d932eb37b06d196c5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+-----------------------------------------------------
+Checking for program 'pkg-config'
+/usr/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+-----------------------------------------------------
+Checking for 'sqlite3'
+['/usr/bin/pkg-config', '--cflags', '--libs', 'sqlite3']
+out:  -lsqlite3  
+
+yes
+-----------------------------------------------------
+Checking Crypto++ lib
+561
+-----------------------------------------------------
+Checking if CryptoPP library works
+==>
+
+#include "../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp"
+#include <iostream>
+
+int
+main()
+{
+  using namespace CryptoPP;
+
+  std::string buffer = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+  SHA256 hash;
+  StringSource(buffer, true, new HashFilter(hash, new FileSink(std::cout)));
+  StringSource(reinterpret_cast<const uint8_t*>(buffer.c_str()), buffer.size(),
+               true, new HashFilter(hash, new FileSink(std::cout)));
+  return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_9c4325e33a335bc214ecf65a51413b56/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-I/usr/include', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9c4325e33a335bc214ecf65a51413b56/testbuild/test.cpp.1.o']
+err: ../test.cpp:2:62: fatal error: ../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp: No such file or directory
+ #include "../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp"
+                                                              ^
+compilation terminated.
+
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: Test does not build: Traceback (most recent call last):
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Configure.py", line 343, in run_build
+    bld.compile()
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 140453150955024: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-I/usr/include', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_9c4325e33a335bc214ecf65a51413b56/testbuild/test.cpp.1.o']
+
+no
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: The configuration failed
+-----------------------------------------------------
+Checking if CryptoPP library works
+==>
+
+#include "../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp"
+#include <iostream>
+
+int
+main()
+{
+  using namespace CryptoPP;
+
+  std::string buffer = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+  SHA256 hash;
+  StringSource(buffer, true, new HashFilter(hash, new FileSink(std::cout)));
+  StringSource(reinterpret_cast<const uint8_t*>(buffer.c_str()), buffer.size(),
+               true, new HashFilter(hash, new FileSink(std::cout)));
+  return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_c74c46e94a85cceb41a2af8d19d54325/test.cpp[0m
+
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-I/usr/include', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '-DCRYPTOPP_DISABLE_ASM', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_c74c46e94a85cceb41a2af8d19d54325/testbuild/test.cpp.1.o']
+err: ../test.cpp:2:62: fatal error: ../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp: No such file or directory
+ #include "../../src/ndnSIM/ndn-cxx/src/security/cryptopp.hpp"
+                                                              ^
+compilation terminated.
+
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: Test does not build: Traceback (most recent call last):
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Configure.py", line 343, in run_build
+    bld.compile()
+  File "/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/.waf-1.8.9-849024857bd41c3cf8e87dc01ecf79b0/waflib/Build.py", line 184, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 140453151106832: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-pedantic', '-Wall', '-O2', '-g', '-std=c++11', '-I/usr/include', '-DNDEBUG', '-DHAVE_IS_DEFAULT_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_CONSTRUCTIBLE=1', '-DHAVE_IS_NOTHROW_MOVE_ASSIGNABLE=1', '-DHAVE_CXX_FRIEND_TYPENAME=1', '-DHAVE_CXX_OVERRIDE_FINAL=1', '-DHAVE_PTHREAD=1', '-DHAVE_RT=1', '-DHAVE_GETPASS=1', '-DHAVE_RTNETLINK=1', '-DHAVE_SQLITE3=1', '-DCRYPTOPP_DISABLE_ASM', '../test.cpp', '-c', '-o', '/home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx/build/.conf_check_c74c46e94a85cceb41a2af8d19d54325/testbuild/test.cpp.1.o']
+
+no
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: The configuration failed
+from /home/anselme/simulation/ndnSIM2.1/ndnSIM/ns-3/src/ndnSIM/ndn-cxx: CryptoPP is present, but is not usable
